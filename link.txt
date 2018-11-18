@@ -1,0 +1,4 @@
+Git used in Android studio
+https://code.tutsplus.com/tutorials/working-with-git-in-android-studio--cms-30514
+
+https://stackoverflow.com/questions/16644946/how-do-you-synchronise-projects-to-github-with-android-studio

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+            android:id="@+id/textview_lable_reqid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strrequestid"/>
+
+    <TextView
+            android:id="@+id/textview_reqid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strrequestid"
+            app:layout_constraintLeft_toRightOf="@+id/textview_lable_reqid"
+            android:paddingLeft="5dp"/>
+    <TextView
+            android:id="@+id/textview_clientname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sundara hardware"
+            app:layout_constraintTop_toBottomOf="@+id/textview_lable_reqid"/>
+   <android.support.v7.widget.LinearLayoutCompat
+           android:id="@+id/lylt_contactdetail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           app:layout_constraintTop_toBottomOf="@+id/textview_clientname">
+
+    <TextView
+            android:id="@+id/textview_contactperson"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="75"
+            android:text="Rameshjf hjfjh gjhghjern"/>
+       <TextView
+           android:id="@+id/textview_contactperson_mobileno"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="25"
+           android:text="Rameshjf hjfjh gjhghjern"/>
+   </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+            android:id="@+id/textview_lable_issueheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strissueheading"
+            app:layout_constraintTop_toBottomOf="@+id/lylt_contactdetail"/>
+
+    <TextView
+            android:id="@+id/textview_issueheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fgfgfgfgfgf fdfddfdfdfdfdfdfdf"
+            app:layout_constraintLeft_toRightOf="@+id/textview_lable_issueheading"
+            app:layout_constraintTop_toBottomOf="@+id/lylt_contactdetail"
+            android:paddingLeft="5dp"/>
+
+    <TextView
+            android:id="@+id/textview_lable_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strstatus"
+            app:layout_constraintTop_toBottomOf="@+id/textview_lable_issueheading"/>
+
+    <TextView
+            android:id="@+id/textview_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resolved"
+            app:layout_constraintLeft_toRightOf="@+id/textview_lable_status"
+            app:layout_constraintTop_toBottomOf="@+id/textview_issueheading"
+            android:paddingLeft="5dp"/>
+</android.support.constraint.ConstraintLayout>

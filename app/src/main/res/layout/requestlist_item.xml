@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/cardlayout_reqitem"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+            <TextView
+                    android:id="@+id/textview_lable_reqid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strrequestid"
+                    android:textSize="@dimen/textsize_small"
+                    android:textColor="@color/colorgray"/>
+
+            <TextView
+                    android:id="@+id/textview_reqid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4343"
+                    android:paddingLeft="5dp"
+                    android:textSize="@dimen/textsize_small"
+                    android:textColor="@color/colorblack"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+                android:id="@+id/textview_clientname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sundara hardware"
+                android:textSize="@dimen/textsize_large"
+                android:textColor="@color/colorblack"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_contactperson"/>
+            <LinearLayout
+                    android:id="@+id/lylt_contactdetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+                <TextView
+                        android:id="@+id/textview_contactperson"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rameshjf hjfjh gjhghjern"
+                        android:textSize="@dimen/textsize_medium"
+                        android:textColor="@color/colorblack"/>
+                <TextView
+                        android:id="@+id/textview_contactperson_mobileno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rameshjf hjfjh gjhghjern"
+                        android:textSize="@dimen/textsize_small"
+                        android:textColor="@color/colorgray"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+            <TextView
+                    android:id="@+id/textview_lable_issueheading"
+                    android:layout_width="@dimen/labelwidth"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strissueheading"
+                    android:textSize="@dimen/textsize_medium"
+                    android:textColor="@color/colorgray"/>
+
+            <TextView
+                    android:id="@+id/textview_issueheading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fgfgfgfgfgf fdfddfdfdfdfdfdfdf"
+                    android:textSize="@dimen/textsize_medium"
+                    android:textColor="@color/colorblack"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+            <TextView
+                    android:id="@+id/textview_lable_status"
+                    android:layout_width="@dimen/labelwidth"
+                    android:layout_height="wrap_content"
+                    android:text="@string/strstatus"
+                    android:textSize="@dimen/textsize_medium"
+                    android:textColor="@color/colorgray"/>
+
+            <TextView
+                    android:id="@+id/textview_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Resolved"
+                    android:textSize="@dimen/textsize_medium"
+                    android:textColor="@color/colorblack"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

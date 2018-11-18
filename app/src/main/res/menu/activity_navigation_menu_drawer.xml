@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_requestlist"
+                android:icon="@drawable/ic_requestlist"
+                android:title="@string/nav_menu_requestlist"/>
+        <item
+                android:id="@+id/nav_newrequest"
+                android:icon="@drawable/ic_newrequest"
+                android:title="@string/nav_menu_newrequest"/>
+        <item
+                android:id="@+id/nav_pendingbill"
+                android:icon="@drawable/ic_pendingbill"
+                android:title="@string/nav_menu_pendingbill"/>
+        <item
+                android:id="@+id/nav_clients"
+                android:icon="@drawable/ic_clientdetail"
+                android:title="@string/nav_menu_clients"/>
+    </group>
+
+    <item android:title="@string/nav_menu_sync">
+        <menu>
+            <item
+                    android:id="@+id/nav_syncclient"
+                    android:icon="@drawable/ic_syncclient"
+                    android:title="@string/nav_menu_syncclient"/>
+            <item
+                    android:id="@+id/nav_syncequipmentlist"
+                    android:icon="@drawable/ic_syncequipment"
+                    android:title="@string/nav_menu_syncequipmentlist"/>
+        </menu>
+    </item>
+
+</menu>
